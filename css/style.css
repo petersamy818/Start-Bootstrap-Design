@@ -165,3 +165,28 @@ body {
     color: var(--color-alt-black);
 }
 /* End Services */
+/* Start Category */
+.category .box::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f4623aab;
+    opacity: 0;
+    transition: 0.3s;
+}
+.category .box .min-box {
+    opacity: 0;
+    transition: 0.3s;
+}
+.category .box:hover::before,
+.category .box:hover .min-box {
+    opacity: 1;
+}
+/* End Category */
+/* Start Download */
+.download {
+    min-height: 377px;
+    background-color: var(--color-black);
+}
+/* End Download */
