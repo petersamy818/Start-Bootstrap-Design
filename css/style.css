@@ -190,3 +190,61 @@ body {
     background-color: var(--color-black);
 }
 /* End Download */
+/* Start Get Touch */
+.get-touch {
+    min-height: 1015px;
+}
+.get-touch .box {
+    max-width: 560px;
+}
+
+.get-touch .box h2::before {
+    background-color: var(--color-orange);
+}
+.get-touch .box form input:not(:last-child) {
+    padding: 14px 150px 14px 14px;
+    border: 1px solid #ced4da;
+}
+.get-touch .box form textarea {
+    padding: 14px 160px 100px 14px;
+    border: 1px solid #ced4da;
+}
+.get-touch .box form input:not(:last-child):focus,
+.get-touch .box form textarea:focus {
+    border: 1px solid var(--color-orange);
+    box-shadow: 0 0 0 0.25rem rgb(244 98 58 / 25%);
+    outline: none;
+}
+.get-touch .box form input[type="submit"] {
+    background-color: var(--color-orange);
+    width: 75%;
+}
+.get-touch .box form input[type="submit"]:focus,
+.get-touch .box form input[type="submit"]:hover {
+    background-color: #cf5331;
+}
+.get-touch .box svg {
+    color: #ced4da;
+}
+.get-touch .box span {
+    color: #212529;
+}
+@media (max-width: 991px) {
+    .get-touch .box {
+        max-width: 680px;
+    }
+    .get-touch .box form input,
+    .get-touch .box form textarea,
+    .get-touch .box form input[type="submit"] {
+        width: 100%;
+    }
+}
+/* End Get Touch */
+/* Start Footer */
+.footer {
+    background-color: rgb(248, 249, 250);
+}
+.footer .box p span {
+    color: var(--color-orange);
+}
+/* End Footer */
